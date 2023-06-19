@@ -439,8 +439,6 @@ p {
   firstPart.style.maxHeight = "1000px";
 }
 
-
-
       }
 
       document.getElementById("consumption-method").addEventListener("change", checkFields);
@@ -600,9 +598,10 @@ const urls = {
   "square-without-price-large": "https://ganjalytica.com/wp-content/uploads/2023/06/SC-NOPB-Full-label.png",
   "rounded-with-price-large": "https://ganjalytica.com/wp-content/uploads/2023/06/FULL-LABEL-PB.png",
   "rounded-without-price-large": "https://ganjalytica.com/wp-content/uploads/2023/06/NOPB-Full-label.png",
-  "square-small": "https://ganjalytica.com/wp-content/uploads/2023/06/SC-Small-NP-Label-.png",
-  "rounded-small": "https://ganjalytica.com/wp-content/uploads/2023/06/RC-Small-NP-Label-.png"
+  "square-with-price-small": "https://ganjalytica.com/wp-content/uploads/2023/06/SC-Small-NP-Label-.png",
+  "rounded-with-price-small": "https://ganjalytica.com/wp-content/uploads/2023/06/RC-Small-NP-Label-.png"
 };
+
 
 // Get the URL for the selected options
 const url = urls[`${corners}-${priceBox}-${size}`];
